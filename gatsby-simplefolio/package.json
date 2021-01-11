@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "nat-pdx-portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "portfolio website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
