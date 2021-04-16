@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'shore.jpg',
   paragraphOne:
-    'Currently, I am starting my internship after completing Epicodus, an awesome web development bootcamp based in Portland OR. Excited to build a career in technology and grow with the ever-changing times and technologies.',
+  'I am finishing a three-month DevOps internship with iGrafx where I have gained a foundation and a disciplined approach to development, testing, documentation, and code structure in a team environment. Here I was able to further my skills in full-stack development using javascript and java.',
   paragraphTwo:
     'While I am new to this industry, I am proactive with research on subjects that I do not understand. I value mentorship, as I have been a mentor to students in the lower cohort at Epicodus. The community has been what keeps me excited about programming. In my opinion, collaboration leads to more successful projects. Working with my colleagues has been a highlight during my time at Epicodus.',
   paragraphThree:
@@ -29,6 +29,22 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'Artery.png',
+    title: 'Artry',
+    info: 'Technology used: React.js, Vercel',
+    info2: 'A project that will become an app for documenting art process I am currenty working on with a fabulous team of queer women and non-binary people. I am playing a DevOp role in this team',
+    url: 'https://github.com/karvari/journal'
+    // if no repo, the button will not show up
+  },{
+    id: nanoid(),
+    img: 'measuretwice.png',
+    title: 'Measure Twice',
+    info: 'Technology used: Gatsby.js, React.js, email.js, Vercel',
+    info2: 'A business site I built for my friend to host a portfolio of his work and to intake emails he needs to get intouch with clients.',
+    url: 'https://measuretwicepdx.com/'
+  },
   {
     id: nanoid(),
     img: 'thump.png',
