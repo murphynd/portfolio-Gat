@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Natalie Muprhy - Web Developer', // e.g: 'Name | Developer'
+  title: 'Natalie Muprhy - Software Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my Portfolio', // e.g: Welcome to my website
 };
@@ -11,19 +11,19 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Natalie Murphy',
-  subtitle: 'I am a Web Developer',
-  cta: '',
+  subtitle: 'I am a Software Developer',
+  cta: 'Hire Me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'shore.jpg',
   paragraphOne:
-  'I am finishing a three-month DevOps internship with iGrafx where I have gained a foundation and a disciplined approach to development, testing, documentation, and code structure in a team environment. Here I was able to further my skills in full-stack development using javascript and java.',
+    'Welcome to my portfolio website! I am a software engineer based in Portland, Oregon. I started my journey in tech by attending Epicodus a bootcamp based in PDX, where I learned the fundamentals of full-stack development, DevOps methodologies, and team collaboration.',
   paragraphTwo:
-    'While I am new to this industry, I am proactive with research on subjects that I do not understand. I value mentorship, as I have been a mentor to students in the lower cohort at Epicodus. The community has been what keeps me excited about programming. In my opinion, collaboration leads to more successful projects. Working with my colleagues has been a highlight during my time at Epicodus.',
+    'Since then, I have worked my way up from an intern at iGrafx to a software engineer, where I honed my skills in JavaScript and Java development. As an active member of Women in Tech PDX and Out in Tech PDX, I am passionate about promoting diversity and inclusion in the industry. I am currently looking for work and am excited to join a team that values collaboration, mentorship, and a disciplined approach to development',
   paragraphThree:
-    'In other news, if you love coffee and skiing I think we will have a great time working together. ',
+    "In my spare time, I love skiing and indulging in Portland's coffee culture. As a mentor to students at Epicodus and new developers at iGrafx, I have learned the importance of collaboration and teamwork, which are the keys to successful projects. Thank you for taking the time to visit my portfolio website, and I look forward to connecting with you!",
   resume: 'https://murphynd.github.io/resume/', // if no resume, the button will not show up
 };
 
@@ -34,16 +34,19 @@ export const projectsData = [
     img: 'Artery.png',
     title: 'Artry',
     info: 'Technology used: React.js, Vercel',
-    info2: 'A project that will become an app for documenting art process I am currenty working on with a fabulous team of queer women and non-binary people. I am playing a DevOp role in this team',
-    url: 'https://github.com/karvari/journal'
+    info2:
+      'A project that will become an app for documenting art process I am currenty working on with a fabulous team of queer women and non-binary people. I am playing a DevOp role in this team',
+    url: 'https://github.com/karvari/journal',
     // if no repo, the button will not show up
-  },{
+  },
+  {
     id: nanoid(),
     img: 'measuretwice.png',
     title: 'Measure Twice',
     info: 'Technology used: Gatsby.js, React.js, email.js, Vercel',
-    info2: 'A business site I built for my friend to host a portfolio of his work and to intake emails he needs to get intouch with clients.',
-    url: 'https://measuretwicepdx.com/'
+    info2:
+      'A business site I built for my friend to host a portfolio of his work and to intake emails he needs to get intouch with clients.',
+    url: 'https://measuretwicepdx.com/',
   },
   {
     id: nanoid(),
