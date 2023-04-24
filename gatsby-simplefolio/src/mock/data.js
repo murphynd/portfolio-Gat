@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     "Hello, I'm a software developer based in Portland, Oregon, actively seeking new opportunities to utilize my skills and knowledge. As a software engineer at iGrafx, I've gained valuable experience and expertise in JavaScript and Java development. My tech journey started with attending Epicodus boot camp, where I learned the ins and outs of full-stack development, DevOps methodologies, and effective teamwork.",
   paragraphTwo:
-    "I advocate for diversity and inclusion in the industry and am a member of Women in Tech PDX and Out in Tech PDX. I'm passionate about collaborating with like-minded professionals in a disciplined and mentoring environment. Thank you for visiting my portfolio website, and I look forward to hearing from you",
+    "I advocate for diversity and inclusion in the industry and am a member of Women in Tech PDX and Out in Tech PDX. I'm passionate about collaborating with like-minded professionals in a disciplined and mentoring environment. Thank you for visiting my portfolio website, and I look forward to hearing from you.",
   paragraphThree: '',
   resume: 'https://murphynd.github.io/resume/',
   networks: [
