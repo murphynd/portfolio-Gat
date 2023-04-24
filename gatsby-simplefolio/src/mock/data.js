@@ -11,19 +11,19 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Natalie Murphy',
-  subtitle: 'I am a Software Developer',
-  cta: 'Hire Me',
+  subtitle: 'I am a Software Developer who wants to work with you',
+  cta: 'About Me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: '',
+  img: 'dude.png',
   paragraphOne:
     'Welcome to my portfolio website! I am a software engineer based in Portland, Oregon. I started my journey in tech by attending Epicodus a bootcamp based in PDX, where I learned the fundamentals of full-stack development, DevOps methodologies, and team collaboration.',
   paragraphTwo:
     'Since then, I have worked my way up from an intern at iGrafx to a software engineer, where I honed my skills in JavaScript and Java development. As an active member of Women in Tech PDX and Out in Tech PDX, I am passionate about promoting diversity and inclusion in the industry. I am currently looking for work and am excited to join a team that values collaboration, mentorship, and a disciplined approach to development',
   paragraphThree:
-    "In my spare time, I love skiing and indulging in Portland's coffee culture. As a mentor to students at Epicodus and new developers at iGrafx, I have learned the importance of collaboration and teamwork, which are the keys to successful projects. Thank you for taking the time to visit my portfolio website, and I look forward to connecting with you!",
+    "In my spare time, I love skiing and indulging in Portland's coffee culture. As a mentor to students at Epicodus and new developers at iGrafx, I have learned the importance of collaboration and teamwork, which are the keys to successful projects. Thank you for taking the time to visit my portfolio website, and I look forward to connecting with you! Check out my resume or CodeCamp profile to see what I have been working on.",
   resume: 'https://murphynd.github.io/resume/',
   codeCamp: 'https://www.freecodecamp.org/Murphynd', // if no resume, the button will not show up
 };
@@ -100,7 +100,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Drop me a line',
   btn: 'Email',
-  email: 'Hello@natpdx.com',
+  email: 'nataliemuprhy500@gmail.com',
 };
 
 // FOOTER DATA
