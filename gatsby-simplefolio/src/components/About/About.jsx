@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume, codeCamp, networks } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume, networks } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -60,34 +60,23 @@ const About = () => {
                     </a>
                   </span>
                 )}
-                {codeCamp && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={codeCamp}
-                    >
-                      CodeCamp Profile
-                    </a>
-                  </span>
-                )}
-
-                {networks &&
-                  networks.map((network) => {
-                    const { id, name, url } = network;
-                    return (
-                      <a
-                        key={id}
-                        href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        aria-label={name}
-                      >
-                        <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
-                      </a>
-                    );
-                  })}
+                <div className="social-links">
+                  {networks &&
+                    networks.map((network) => {
+                      const { id, name, url } = network;
+                      return (
+                        <a
+                          key={id}
+                          href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          aria-label={name}
+                        >
+                          <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                        </a>
+                      );
+                    })}
+                </div>
               </div>
             </Fade>
           </Col>

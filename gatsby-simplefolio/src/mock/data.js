@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'dude.png',
+  img: 'myface.png',
   paragraphOne:
     'Welcome to my portfolio website! I am a software engineer based in Portland, Oregon. I started my journey in tech by attending Epicodus a bootcamp based in PDX, where I learned the fundamentals of full-stack development, DevOps methodologies, and team collaboration.',
   paragraphTwo:
@@ -25,7 +25,28 @@ export const aboutData = {
   paragraphThree:
     "In my spare time, I love skiing and indulging in Portland's coffee culture. As a mentor to students at Epicodus and new developers at iGrafx, I have learned the importance of collaboration and teamwork, which are the keys to successful projects. Thank you for taking the time to visit my portfolio website, and I look forward to connecting with you! Check out my resume or CodeCamp profile to see what I have been working on.",
   resume: 'https://murphynd.github.io/resume/',
-  codeCamp: 'https://www.freecodecamp.org/Murphynd', // if no resume, the button will not show up
+  networks: [
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: 'https://twitter.com/Nat_Codes_Stuff',
+    },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/nataliedoraismurphy/',
+    },
+    {
+      id: nanoid(),
+      name: 'free-code-camp',
+      url: 'https://www.freecodecamp.org/Murphynd',
+    },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/murphynd',
+    },
+  ],
 };
 
 // PROJECTS DATA
