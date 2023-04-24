@@ -17,18 +17,31 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'shore.jpg',
+  img: '',
   paragraphOne:
     'Welcome to my portfolio website! I am a software engineer based in Portland, Oregon. I started my journey in tech by attending Epicodus a bootcamp based in PDX, where I learned the fundamentals of full-stack development, DevOps methodologies, and team collaboration.',
   paragraphTwo:
     'Since then, I have worked my way up from an intern at iGrafx to a software engineer, where I honed my skills in JavaScript and Java development. As an active member of Women in Tech PDX and Out in Tech PDX, I am passionate about promoting diversity and inclusion in the industry. I am currently looking for work and am excited to join a team that values collaboration, mentorship, and a disciplined approach to development',
   paragraphThree:
     "In my spare time, I love skiing and indulging in Portland's coffee culture. As a mentor to students at Epicodus and new developers at iGrafx, I have learned the importance of collaboration and teamwork, which are the keys to successful projects. Thank you for taking the time to visit my portfolio website, and I look forward to connecting with you!",
-  resume: 'https://murphynd.github.io/resume/', // if no resume, the button will not show up
+  resume: 'https://murphynd.github.io/resume/',
+  codeCamp: 'https://www.freecodecamp.org/Murphynd', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'NYTAPPpic.png',
+    title: 'NYT MERN stack app',
+    info:
+      'Technology used: NYTimes API, MongoDB document database, Express(.js), Node.js web framework, React(.js) a client-side JavaScript framework, Node(.js)the premier JavaScript web server',
+    info2:
+      'Goal of this project is to spend time on React Hooks and it has expanded to work with the full MERN stack. ',
+    repo: 'https://github.com/murphynd/MERN-NYTapp',
+    url: '',
+    // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'Artery.png',
@@ -36,7 +49,8 @@ export const projectsData = [
     info: 'Technology used: React.js, Vercel',
     info2:
       'A project that will become an app for documenting art process I am currenty working on with a fabulous team of queer women and non-binary people. I am playing a DevOp role in this team',
-    url: 'https://github.com/karvari/journal',
+    repo: 'https://github.com/karvari/journal',
+    url: '',
     // if no repo, the button will not show up
   },
   {
@@ -66,8 +80,8 @@ export const projectsData = [
       'Technology used: C#, ASP.NET Core MVC, MySQL, Entity Framework Core 2.2.6, Swagger - NSwag 13.3.0, Postman',
     info2:
       'An API that functions as catalog for National & State Parks in the USA. It utilizes RESTful principles, Swagger and has integrated authentication via JWT Authentication to keep the API Read-Only for all users except administrators.',
-    url: 'https://github.com/murphynd/ParksLookUp',
-    repo: '', // if no repo, the button will not show up
+    url: '',
+    repo: 'https://github.com/murphynd/ParksLookUp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
