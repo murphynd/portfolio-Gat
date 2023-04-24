@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Natalie Muprhy - Software Developer', // e.g: 'Name | Developer'
+  title: 'Natalie Murphy - Software Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my Portfolio', // e.g: Welcome to my website
 };
@@ -19,18 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'myface.png',
   paragraphOne:
-    'Welcome to my portfolio website! I am a software engineer based in Portland, Oregon. I started my journey in tech by attending Epicodus a bootcamp based in PDX, where I learned the fundamentals of full-stack development, DevOps methodologies, and team collaboration.',
+    "Hello, I'm a software developer based in Portland, Oregon, actively seeking new opportunities to utilize my skills and knowledge. As a software engineer at iGrafx, I've gained valuable experience and expertise in JavaScript and Java development. My tech journey started with attending Epicodus boot camp, where I learned the ins and outs of full-stack development, DevOps methodologies, and effective teamwork.",
   paragraphTwo:
-    'Since then, I have worked my way up from an intern at iGrafx to a software engineer, where I honed my skills in JavaScript and Java development. As an active member of Women in Tech PDX and Out in Tech PDX, I am passionate about promoting diversity and inclusion in the industry. I am currently looking for work and am excited to join a team that values collaboration, mentorship, and a disciplined approach to development',
-  paragraphThree:
-    "In my spare time, I love skiing and indulging in Portland's coffee culture. As a mentor to students at Epicodus and new developers at iGrafx, I have learned the importance of collaboration and teamwork, which are the keys to successful projects. Thank you for taking the time to visit my portfolio website, and I look forward to connecting with you! Check out my resume or CodeCamp profile to see what I have been working on.",
+    "I advocate for diversity and inclusion in the industry and am a member of Women in Tech PDX and Out in Tech PDX. I'm passionate about collaborating with like-minded professionals in a disciplined and mentoring environment. Thank you for visiting my portfolio website, and I look forward to hearing from you",
+  paragraphThree: '',
   resume: 'https://murphynd.github.io/resume/',
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/Nat_Codes_Stuff',
-    },
     {
       id: nanoid(),
       name: 'linkedin',
@@ -127,16 +121,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/Nat_Codes_Stuff',
-    },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'linkedin',
